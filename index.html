@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daksh Coaching Zone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#" class="brand">
+          <img src="logo.jpg" alt="Daksh Coaching Zone logo" class="brand-logo" />
+          <span class="brand-text">DAKSH COACHING ZONE</span>
+        </a>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">Menu</button>
+        <nav class="nav" id="mainNav">
+          <a href="#courses">Courses</a>
+          <a href="#notes">Notes</a>
+          <a href="#results">Results</a>
+          <a href="#teachers">Teachers</a>
+          <a href="#contact">Contact</a>
+          <a href="#" class="btn btn-sm">Start Learning</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="kicker">IIT-JEE | NEET | Boards | CUET | Competitive Exams</p>
+            <h1>India's Smart Classroom For Serious Rankers</h1>
+            <p>
+              Handwritten notes,practice sheets,
+              monthly tests, and rank-focused mentorship - all in one place.
+            </p>
+            <div class="hero-actions">
+              <a href="#courses" class="btn">Explore Batches</a>
+              <a href="#results" class="btn btn-ghost">See Results</a>
+            </div>
+            <div class="hero-meta">
+              <span>50K+ students mentored</span>
+              <span>500+ selections in top institutes</span>
+            </div>
+          </div>
+          <aside class="hero-card">
+            <h3>New Batch Starts</h3>
+            <p class="batch-date">10 March 2026</p>
+            <ul>
+              <li>Doubt Solving</li>
+              <li>Practice + PYQ Sheets</li>
+              <li>Monthly Full Syllabus Tests</li>
+              <li>Parent Performance Reports</li>
+            </ul>
+            <a href="#" class="btn btn-full" id="openSeatForm">Reserve Seat</a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="stats container">
+        <article>
+          <h2 data-count="96">0</h2>
+          <p>Percent student satisfaction</p>
+        </article>
+        <article>
+          <h2 data-count="250">0</h2>
+          <p>Live classes every month</p>
+        </article>
+        <article>
+          <h2 data-count="1200">0</h2>
+          <p>Practice problems weekly</p>
+        </article>
+        <article>
+          <h2 data-count="3">0</h2>
+          <p>Expert faculty mentors</p>
+        </article>
+      </section>
+
+      <section class="courses" id="courses">
+        <div class="container">
+          <div class="section-head">
+            <p class="kicker">Top Batches</p>
+            <h2>Choose The Right Program</h2>
+          </div>
+          <div class="card-grid">
+            <article class="course-card reveal">
+              <span class="tag">Class 11-12</span>
+              <h3>IIT-JEE Elite</h3>
+              <p>Physics, Chemistry, Maths complete prep with advanced test series.</p>
+              <a href="#">View Details</a>
+            </article>
+          
+            <article class="course-card reveal">
+              <span class="tag">Class 9-10</span>
+              <h3>Foundation Pro</h3>
+              <p>Strong concepts, olympiad prep, and board excellence strategy.</p>
+              <a href="#">View Details</a>
+            </article>
+             <article class="course-card reveal">
+              <span class="tag">Class 6-8</span>
+              <h3>Foundation Master</h3>
+              <p>Comprehensive prep with advanced strategy and personalized mentorship.</p>
+              <a href="#">View Details</a>
+            </article>
+             <article class="course-card reveal">
+              <span class="tag">Class 1-5</span>
+              <h3>Foundation Hero</h3>
+              <p>Comprehensive prep with advanced strategy and personalized mentorship.</p>
+              <a href="#">View Details</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="notes" id="notes">
+        <div class="container">
+          <div class="section-head">
+            <p class="kicker">Study Material</p>
+            <h2>Protected Notes Access</h2>
+            <p>Notes unlock karne ke liye password aur student details required hain.</p>
+          </div>
+          <div class="note-grid">
+            <article class="note-card reveal">
+              <h3>Physics Handwritten Notes</h3>
+              <p>Class 11-12 mechanics + practice sheets.</p>
+              <button
+                type="button"
+                class="btn btn-sm note-access-btn"
+                data-note-title="Physics Handwritten Notes"
+                data-note-url="https://drive.google.com/drive/folders/1Zzc0OshASfSuzfvzf718g6dQe9U1pfR0"
+              >
+                Access Notes
+              </button>
+            </article>
+            <article class="note-card reveal">
+              <h3>Chemistry Formula Notes</h3>
+              <p>Important reactions, charts, and quick revision pages.</p>
+              <button
+                type="button"
+                class="btn btn-sm note-access-btn"
+                data-note-title="Chemistry Formula Notes"
+                data-note-url="https://drive.google.com/drive/folders/1ga7CAgczllVGD8JFK5_0fAiLuoNMqzDD"
+              >
+                Access Notes
+              </button>
+            </article>
+            <article class="note-card reveal">
+              <h3>Maths Question Bank</h3>
+              <p>Topic-wise PYQ and advanced level assignments.</p>
+              <button
+                type="button"
+                class="btn btn-sm note-access-btn"
+                data-note-title="Maths Question Bank"
+                data-note-url="https://drive.google.com/drive/folders/1wYkcVVRPwOV31xlvLYbTZOEO18IjjOzd"
+              >
+                Access Notes
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="results container" id="results">
+        <div class="section-head">
+          <p class="kicker">Results</p>
+          <h2>Performance That Builds Trust</h2>
+        </div>
+        <div class="result-grid">
+          <article class="result-card reveal">
+            <h3>Aryan Gupta</h3>
+            <p>IIT-JEE Main 2025</p>
+            <strong>99.42 Percentile</strong>
+          </article>
+          <article class="result-card reveal">
+            <h3>Khushi Verma</h3>
+            <p>NEET 2025</p>
+            <strong>AIR 1243</strong>
+          </article>
+          <article class="result-card reveal">
+            <h3>Raghav Singh</h3>
+            <p>CBSE Boards 2025</p>
+            <strong>97.8 Percent</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="teachers" id="teachers">
+        <div class="container teacher-wrap reveal">
+          <div>
+            <p class="kicker">Mentorship</p>
+            <h2>Learn From Faculty Who Build Toppers</h2>
+            <p>
+              Our teachers focus on clarity, test temperament, and strategic revision.
+              Every batch gets personalized support with performance analytics.
+            </p>
+          </div>
+          <a href="#" class="btn">Meet Faculty</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h3>DAKSH COACHING ZONE</h3>
+          <p>Your destination for disciplined preparation and confident results.</p>
+        </div>
+        <div>
+          <p>Email: dakshcoachingc@gmail.com</p>
+          <p>Phone: +91 6396634620</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="seat-modal" id="seatModal" aria-hidden="true">
+      <div class="seat-modal__backdrop" id="seatModalBackdrop"></div>
+      <div class="seat-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="seatFormTitle">
+        <button class="seat-modal__close" id="closeSeatForm" aria-label="Close form">x</button>
+        <h3 id="seatFormTitle">Reserve Your Seat</h3>
+        <p>Fill your details and we will contact you shortly.</p>
+        <form class="seat-form" id="seatForm" action="https://formsubmit.co/kumarkartik2146@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Seat Reservation - Daksh Coaching Zone" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="Student Name" placeholder="Student Name" required />
+          <input type="text" name="Class Name" placeholder="Class Name" required />
+          <input type="text" name="Father's Name" placeholder="Father's Name" required />
+          <input type="tel" name="Mobile No" placeholder="Mobile Number" pattern="[0-9]{10}" maxlength="10" required />
+          <textarea name="Address" placeholder="Address" rows="3" required></textarea>
+          <button type="submit" class="btn btn-full" id="seatSubmitBtn">Submit Details</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="notes-modal" id="notesModal" aria-hidden="true">
+      <div class="notes-modal__backdrop" id="notesModalBackdrop"></div>
+      <div class="notes-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="notesFormTitle">
+        <button class="notes-modal__close" id="closeNotesForm" aria-label="Close form">x</button>
+        <h3 id="notesFormTitle">Unlock Notes</h3>
+        <p id="selectedNoteLabel">Fill details to continue.</p>
+        <form class="notes-form" id="notesAccessForm">
+          <input type="hidden" id="selectedNoteTitle" name="Selected Note Title" />
+          <input type="hidden" id="selectedNoteUrl" name="Selected Note Url" />
+          <input type="text" name="Student Name" placeholder="Student Name" required />
+          <input type="text" name="Class Name" placeholder="Class Name" required />
+          <input type="email" name="E-mail" placeholder="E-mail" required />
+          <input type="password" id="notesPassword" placeholder="Enter Password" required />
+          <p class="notes-form__error" id="notesFormError" aria-live="polite"></p>
+          <button type="submit" class="btn btn-full" id="notesAccessSubmitBtn">Verify & Open Notes</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
